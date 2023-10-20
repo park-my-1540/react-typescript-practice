@@ -1,0 +1,6 @@
+1. nvm 버전 맞추기 node -v, npm -v 12.19.0 use
+2. npm install typescript
+3. npx tsc --init : 으로 tsconfig.json 생성
+4. name.js 생성 후 npx tsc 로 js 파일 생성
+5. package.json에 "build": "tsc" 추가 (js 생성해줌) npm run build로 가능
+6. 생성된 node name.js 실행 후 터미널 출력 확인
