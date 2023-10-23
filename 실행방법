@@ -1,6 +1,16 @@
-1. nvm 버전 맞추기 node -v, npm -v 12.19.0 use
+1. nvm 버전 맞추기 node -v, npm -v nvm use v18.17.0  
 2. npm install typescript
 3. npx tsc --init : 으로 tsconfig.json 생성
 4. name.js 생성 후 npx tsc 로 js 파일 생성
 5. package.json에 "build": "tsc" 추가 (js 생성해줌) npm run build로 가능
 6. 생성된 node name.js 실행 후 터미널 출력 확인
+
+[tsc -w]
+https://docs.apify.com/academy/switching-to-typescript/watch-mode-and-tsconfig
+[watch에 관한 5가지 방법]
+https://velog.io/@fkstndnjs/Typescript-%ED%8C%8C%EC%9D%BC%EC%9D%84-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-5%EA%B0%80%EC%A7%80-%EB%B0%A9%EB%B2%95
+
+
+[TypeScript 파일을 컴파일하여 결과를 터미널에 바로 출력하는 방법]
+ts-node -P tsconfig.json practice.ts
+npm 'start' 로 
